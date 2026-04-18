@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea
+
+# Virtual env
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Alembic (vamos ajustar depois)
+alembic/versions/*.pyc
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env
