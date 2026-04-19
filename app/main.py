@@ -8,7 +8,7 @@ app = FastAPI()
 
 wait_for_db()
 
-Base.metadata.create_all(bind=engine)
+
 @app.get("/")
 def health_check():
     return {"status": "ok"}
